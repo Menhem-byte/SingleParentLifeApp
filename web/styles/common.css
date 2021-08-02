@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Roboto:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.container{
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #4f66da;
+    box-sizing: border-box;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    width: 60px;
+    position: absolute;
+    top: 4%;
+    left: 42%;
+}
+
+#logo2{
+    width: 120px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
